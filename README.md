@@ -9,7 +9,12 @@ This is just a simple inventory system to show off the benefits of objects/array
 new Item( "Name", "Display Type", weight, damage, armor, stackable?, icon-path, model-path, type )
 ```
 
-### Adding an Player
+### Adding a Player
 ```
 new Player( "name", "Display Name", health, money, group )
+```
+
+### Adding an item to the player's inventory
+```
+playerVar.inventory.addItem(item[index], quantity);
 ```
