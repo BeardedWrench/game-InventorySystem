@@ -15,7 +15,6 @@ terry.inventory.addItem(weapon[1], 1);
 console.log( "Players List: ", playersList );
 console.log( "Player-Terry: ", terry );
 
-console.log(terry.inventory.items);
 
 
 //cheap/ really BAD code to just display some icons from the "database"
