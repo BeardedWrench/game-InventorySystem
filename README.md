@@ -18,3 +18,6 @@ new Player( "name", "Display Name", health, money, group )
 ```
 playerVar.inventory.addItem(item[index], quantity);
 ```
+
+### Preview
+![](images/readme.jpg)
