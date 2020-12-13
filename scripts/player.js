@@ -15,8 +15,12 @@ export class Player {
                 }else return false;
             },
             addItem: function( item, qty ){
-                for( let i = 0; i < qty; i++ ){
-                    this.items.push( item );
+                if( this.weight !== maxWeight){
+                    for( let i = 0; i < qty; i++ ){
+                        this.items.push( item );
+                    }
+                }else{
+                    return "You're way too full!";
                 }
             },
             removeItem: function( item, qty ){
