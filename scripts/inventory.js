@@ -1,5 +1,5 @@
 import { Player } from '/scripts/player.js';
-import { Item, weapons, armor } from '/scripts/item.js';
+import { Item, weapon, armor } from '/scripts/item.js';
 
 const playersList = [];
 //Template for Player: new Player( "name", "Display Name", health, money, group )
@@ -8,7 +8,8 @@ const bob = new Player( 'Robert', 'xBoBx2020', 100, 200, playersList );
 const jane = new Player( 'Jane', 'JaneDoe1993', 100, 122, playersList );
 
 
-terry.inventory.addItem(weapons[0], 1);
-terry.inventory.addItem(weapons[1], 1);
+
+terry.inventory.addItem(weapon[0], 1);
+terry.inventory.addItem(weapon[1], 1);
 console.log( "Players List: ", playersList );
 console.log( "Player-Terry: ", terry );
