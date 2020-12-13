@@ -81,18 +81,26 @@ body{
     flex-wrap: wrap;
 }
 #inventory .item{
-    width:64px;
-    height:64px;
+    width:128px;
+    height:128px;
     background:#1e1e1e;
     border:2px solid black;
     border-radius:10px;
 
     display:flex;
+    flex-direction:column;
     justify-content: center;
     align-items:center;
 }
+#inventory .item h3{
+    color:white;
+    font-size:1rem;
+    font-weight:bold;
+    margin-top:10px;
+
+}
 #inventory .item img{
-    width:48px;
+    width:64px;
 }
 #inventory h2{
     font-size:3rem;
