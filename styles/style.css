@@ -61,48 +61,49 @@ body{
     color:white;
     margin-bottom:1%;
 }
-#inventory{
+.inventory{
     width:40%;
     background:#4c4c4c;
     border: 2px solid black;
-    height:300px;
     display:flex;
     align-items: center;
     flex-direction:column;
     padding:20px;
+    margin-top:2%;
     box-sizing:border-box;
 }
-#inventory .item-list{
+.inventory .item-list, .player-items{
     width:80%;
     height:100%;
     display:flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
 }
-#inventory .item{
+.inventory .item{
     width:128px;
     height:128px;
     background:#1e1e1e;
     border:2px solid black;
     border-radius:10px;
+    margin-top:20px;
 
     display:flex;
     flex-direction:column;
     justify-content: center;
     align-items:center;
 }
-#inventory .item h3{
+.inventory .item h3{
     color:white;
     font-size:1rem;
     font-weight:bold;
     margin-top:10px;
 
 }
-#inventory .item img{
+.inventory .item img{
     width:64px;
 }
-#inventory h2{
+.inventory h2{
     font-size:3rem;
     color:white;
 }
