@@ -7,7 +7,12 @@ export class Player {
 
         this.inventory = {
             items: [],
-            weight: 0,
+            weight: Math.round(0),
+            weightCalc: function(){
+                for(let i = 0; i < this.items.length; i++){
+                    this.weight += this.items[i].weight;
+                }
+            },
             maxWeight: 50,
             isFull: function(){
                 if( this.weight === this.maxWeight ){

@@ -9,5 +9,6 @@ const jane = new Player( 'Jane', 'JaneDoe1993', 100, 122, playersList );
 
 
 terry.inventory.addItem(weapons[0], 1);
+terry.inventory.addItem(weapons[1], 1);
 console.log( "Players List: ", playersList );
 console.log( "Player-Terry: ", terry );
