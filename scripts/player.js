@@ -10,12 +10,12 @@ export class Player {
             weight: 0,
             maxWeight: 50,
             isFull: function(){
-                if( this.weight === maxWeight ){
+                if( this.weight === this.maxWeight ){
                     return true;
                 }else return false;
             },
             addItem: function( item, qty ){
-                if( this.weight !== maxWeight){
+                if( this.weight !== this.maxWeight){
                     for( let i = 0; i < qty; i++ ){
                         this.items.push( item );
                     }
