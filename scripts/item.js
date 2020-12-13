@@ -21,6 +21,7 @@ new Item( 'Axe', "Double Axe", 2.3, 15, 0, false, '../images/items/axe.png', nul
 new Item( 'Sword', "Long Sword", 1.3, 11, 0, false, '../images/items/sword.png', null, weapon );
 new Item( 'Golden Plate', "Chest Armor", 3.0, 0, 55, false, '../images/items/golden-chest.png', null, armor );
 
+
 console.log("Weapons List: ", weapon);
 console.log("Armor List: ", armor);
 

@@ -11,5 +11,19 @@ const jane = new Player( 'Jane', 'JaneDoe1993', 100, 122, playersList );
 
 terry.inventory.addItem(weapon[0], 1);
 terry.inventory.addItem(weapon[1], 1);
+
 console.log( "Players List: ", playersList );
 console.log( "Player-Terry: ", terry );
+
+
+//cheap code to just display some icons from the "database"
+let markup = '<div class="item"><img src="%icon%"/></div>'
+
+for( let i = 0; i < weapon.length; i++){
+    let weaponList = markup.replace('%icon%', weapon[i].icon);
+    document.querySelector(".item-list").insertAdjacentHTML('beforeend', weaponList);
+}
+for( let i = 0; i < armor.length; i++){
+    let armorList = markup.replace('%icon%', armor[i].icon);
+    document.querySelector(".item-list").insertAdjacentHTML('beforeend', armorList);
+}
