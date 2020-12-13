@@ -17,10 +17,9 @@ export class Item {
     }
 }
 //Template: new Item( "Name", "Display Type", weight, damage, armor, stackable?, icon-path, model-path, type )
-
-new Item( 'Axe', "Double Axe", 2.3, 15, 0, false, null, null, weapon );
-new Item( 'Sword', "Long Sword", 1.3, 11, 0, false, null, null, weapon );
-new Item( 'Golden Plate', "Chest Armor", 3.0, 0, 55, false, null, null, armor );
+new Item( 'Axe', "Double Axe", 2.3, 15, 0, false, '../images/items/axe.png', null, weapon );
+new Item( 'Sword', "Long Sword", 1.3, 11, 0, false, '../images/items/sword.png', null, weapon );
+new Item( 'Golden Plate', "Chest Armor", 3.0, 0, 55, false, '../images/items/golden-chest.png', null, armor );
 
 console.log("Weapons List: ", weapon);
 console.log("Armor List: ", armor);
