@@ -12,9 +12,6 @@ export class Item {
         this.damage = damage;
         this.armor = armor;
         this.Use = function(){
-            //remove from inv
-            this.amount -= 1;
-            //do game stuff
         }
         arr.push(this);
     }
