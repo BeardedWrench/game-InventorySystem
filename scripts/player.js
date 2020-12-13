@@ -15,7 +15,7 @@ export class Player {
                 }else return false;
             },
             addItem: function( item, qty ){
-                if( this.weight !== this.maxWeight){
+                if( this.isFull() === false ){
                     for( let i = 0; i < qty; i++ ){
                         this.items.push( item );
                     }
