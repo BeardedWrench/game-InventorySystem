@@ -1,5 +1,5 @@
-const weapons = [];
-const armor = [];
+export const weapons = [];
+export const armor = [];
 
 export class Item {
     constructor( name, type, weight, damage, armor, canStack, icon, model, arr ){
@@ -25,9 +25,7 @@ new Item( 'Axe', "Double Axe", 2.3, 15, 0, false, null, null, weapons );
 new Item( 'Sword', "Long Sword", 1.3, 11, 0, false, null, null, weapons );
 new Item( 'Golden Plate', "Chest Armor", 3.0, 0, 55, false, null, null, armor );
 
-
-console.log(weapons);
-console.log(armor);
-
+console.log("Weapons List: ", weapons);
+console.log("Armor List: ", armor);
 
 
