@@ -16,7 +16,6 @@ console.log( "Players List: ", playersList );
 console.log( "Player-Terry: ", terry );
 
 
-
 //cheap/ really BAD code to just display some icons from the "database"
 let dbMarkup = '<div class="item"><img src="%icon%"/><h3>%name%</h3></div>'
 for( let i = 0; i < weapon.length; i++){

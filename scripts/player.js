@@ -29,7 +29,7 @@ export class Player {
                 }
             },
             removeItem: function( item, qty ){
-             
+
             },
             updateItem: function( item, qty ){
             
